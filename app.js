@@ -40,9 +40,7 @@ const playGame = (userChoice) => {
     drawScoreDisplay.innerText = drawScore;
     return;
   }
-
   let userWin = true;
-
   if (userChoice === "rock") {
     userWin = compChoice === "paper" ? false : true;
   } else if (userChoice === "paper") {
