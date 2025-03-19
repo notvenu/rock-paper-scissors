@@ -8,9 +8,6 @@ A simple **Rock-Paper-Scissors** game built using HTML, CSS, and JavaScript. Pla
 - Randomized computer moves 🤖
 - Score tracking system 🏆
 
-## 🖥️ Demo
-[Click here to play the game!](#) (Add a live link if hosted)
-
 ## 📸 Screenshots
 *(Add screenshots here if possible)*
 
@@ -51,5 +48,4 @@ Feel free to fork this project and improve it! To contribute:
 This project is licensed under the **MIT License**.
 
 ---
-Made with ❤️ by [Your Name](https://github.com/notvenu)
-
+Made with ❤️ by [Venu](https://github.com/notvenu)
