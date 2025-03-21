@@ -48,4 +48,4 @@ Feel free to fork this project and improve it! To contribute:
 This project is licensed under the **MIT License**.
 
 ---
-Made with ❤️ by [Venu](https://github.com/notvenu)
+Made with ❤️ by [Venu K](https://github.com/notvenu)
