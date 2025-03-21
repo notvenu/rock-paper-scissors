@@ -9,6 +9,8 @@
 :root {
     --color1: #282727;
     --color2: #fefefe;
+    --color3: greenyellow;
+    --color4: green;
 }
 
 body {
@@ -156,6 +158,22 @@ hr {
 #result {
     margin-top: 10px;
     font-size: 20px;
+}
+
+footer {
+    color: var(--color1);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#love {
+    color: var(--color4);
+    text-decoration: none;
 }
 
 /* Responsive Styles */

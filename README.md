@@ -9,7 +9,7 @@ A simple **Rock-Paper-Scissors** game built using HTML, CSS, and JavaScript. Pla
 - Score tracking system 🏆
 
 ## 📸 Screenshots
-*(Add screenshots here if possible)*
+![Rock Paper Scissors UI](./img/image.png)
 
 ## 🔧 Installation & Setup
 1. Clone this repository:

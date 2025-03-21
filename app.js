@@ -1,3 +1,4 @@
+//Game Functioning
 let userScore = 0;
 let compScore = 0;
 let drawScore =0;
@@ -18,7 +19,7 @@ const genCompChoice = () => {
 
 const showWinner = (userWin,userChoice,compChoice) => {
   if (userWin) {
-    result.innerText = `You Win! Your ${userChoice} beats Computer ${compChoice}`;
+    result.innerText = `You Win!. Your ${userChoice} beats Computer ${compChoice}`;
     results.style.backgroundColor = "green";
     userScore++;
   } else {
@@ -52,7 +53,6 @@ const playGame = (userChoice) => {
   showWinner(userWin,userChoice,compChoice);
 };
 
-
 choices.forEach((choice) => {
     choice.addEventListener("click", () => {
       const userChoice = choice.getAttribute("id");
@@ -82,12 +82,15 @@ let themechange = () => {
         currentMode = "Light";
         root.style.setProperty("--color1", "#fefefe");
         root.style.setProperty("--color2", "#282727");
-        root.style.setProperty("--color5",  "invert(100%) sepia(6%) saturate(94%) hue-rotate(202deg) brightness(117%) contrast(99%)")
+        root.style.setProperty("--color3", "green");
+        root.style.setProperty("--color4","greenyellow");
         btn.innerText = "Light";
     } else {
         currentMode = "Dark";
         root.style.setProperty("--color1", "#282727");
         root.style.setProperty("--color2", "#fefefe");
+        root.style.setProperty("--color3", "greenyellow");
+        root.style.setProperty("--color4","green");
         btn.innerText = "Dark";
     }
 };
